@@ -2,6 +2,12 @@
 
 This is source code of newest Xamarin.Forms with PCL Xamarin.Forms core project Template made by Japan Xamarin User Group.
 
+## Specification
+
+- Xamarin.Forms 3.0.0.446417
+- PackageReference (can use only Visual Studio 2017)
+- PCL core project (profile 44)
+
 # How to get
 
 ### Option 1: Clone the Repository (Recommended)
@@ -14,35 +20,19 @@ That is, on a command prompt, you can install the template by the following comm
 
 ```
 cd "%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#"
-git clone https://github.com/ytabuchi/XamarinFormsTemplate.git
+git clone https://github.com/ytabuchi/XamarinFormsPCLTemplate.git
 ```
 
-After the first installation, you can of course update your copy by ```git pull``` and you feel it's easier to update the templates than the other option.
+After the first installation, you can update your copy by ```git pull``` in ```XamarinFormsPCLTemplate``` directory, and you feel it's easier to update the templates than the other option.
 
 ### Option 2: Download the ZIP
 
-- Download XamarinFormsTemplate-master.zip file from [GitHub](https://github.com/ytabuchi/XamarinFormsTemplate/archive/master.zip)
+- Download XamarinFormsTemplate-master.zip file from [GitHub](https://github.com/ytabuchi/XamarinFormsPCLTemplate/archive/master.zip)
 - Extract the zip file
 - Move the extracted ```XamarinFormsTemplate-master``` folder to the following location:
-```%USERPROFILE%\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#```
-
-
-<img src="https://github.com/ytabuchi/XamarinFormsTemplate/blob/master/NewProject.png" alt="New project dialog" width="450" />
+```%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#```
 
 Please see [blog page (in Japanese)](http://ytabuchi.hatenablog.com/entry/vs-xf-template) for how to use.
-
-# Notices when using
-
-- When generating a project, you will see the following dialog message. Please select "Reload all".
-
-<img src="https://github.com/ytabuchi/XamarinFormsTemplate/blob/master/01-Android_warning.png" alt="Android Warning" width="300" />
-
-- After project is generated, you have to "Restore NuGet packages".
-
-<img src="https://github.com/ytabuchi/XamarinFormsTemplate/blob/master/02-RestoreNuGet.png" alt="Android Warning" width="300" />
-
-- Then restart Visual Studio. Some warning might be remained, but no error will be remained.
-
 
 # How to maintenance
 
