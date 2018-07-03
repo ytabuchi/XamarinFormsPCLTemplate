@@ -4,7 +4,7 @@ This is source code of newest Xamarin.Forms with PCL Xamarin.Forms core project 
 
 ## Specification
 
-- Xamarin.Forms 3.0.0.446417
+- Xamarin.Forms 3.1.0.583944
 - PackageReference (can use only Visual Studio 2017)
 - PCL core project (profile 44)
 
@@ -41,4 +41,4 @@ In each projects folder, there are `MyTemplate.vstemplate` files. They are the t
 
 If Xamarin.Forms will be updated, you can just change the version numbers of each `MyTemplate.vstemplate` files
 
-There are some macros in the template files. Please see [MSDN document](https://msdn.microsoft.com/ja-jp/library/eehb4faa.aspx) for each meaning.
+There are some macros such as `WizardExtension` in the template files. Please see [MSDN document](https://docs.microsoft.com/en-us/visualstudio/extensibility/visual-studio-template-schema-reference) for each meaning.
