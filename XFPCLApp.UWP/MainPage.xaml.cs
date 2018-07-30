@@ -21,7 +21,7 @@ namespace $safeprojectname$
         {
             this.InitializeComponent();
 
-            LoadApplication(new XFPCLApp.App());
+            LoadApplication(new $ext_safeprojectname$.App());
         }
     }
 }
