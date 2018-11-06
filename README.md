@@ -4,7 +4,7 @@ This is source code of newest Xamarin.Forms with PCL Xamarin.Forms core project 
 
 ## Specification
 
-- Xamarin.Forms 3.2.0.871581
+- Xamarin.Forms 3.3.0.967583
 - PackageReference (can use only Visual Studio 2017)
 - PCL core project (profile 44)
 
