@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
     <Name>Xamarin.Forms App (JXUG) (PCL)</Name>
-    <Description>Xamarin.Forms 3.3.0.967583 template using PCL</Description>
+    <Description>Xamarin.Forms 3.4.0.1029999 template using PCL</Description>
     <ProjectType>CSharp</ProjectType>
     <Icon>__TemplateIcon.ico</Icon>
     <DefaultName>XFPCLApp</DefaultName>
@@ -12,7 +12,7 @@
       <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
         XFPCLApp\MyTemplate.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Android" CopyParameters="true">
         XFPCLApp.Android\MyTemplate.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
