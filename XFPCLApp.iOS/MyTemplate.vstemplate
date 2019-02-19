@@ -14,7 +14,7 @@
     <Project TargetFileName="XFPCLApp.iOS.csproj" File="XFPCLApp.iOS.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="AppDelegate.cs">AppDelegate.cs</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="Entitlements.plist">Entitlements.plist</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Info.plist">Info.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Info.plist">Info.plist</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>

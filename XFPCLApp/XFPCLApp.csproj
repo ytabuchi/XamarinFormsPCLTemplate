@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>$safeprojectname$</RootNamespace>
     <AssemblyName>$safeprojectname$</AssemblyName>
-    <DefaultLanguage>ja-JP</DefaultLanguage>
+    <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkProfile>Profile44</TargetFrameworkProfile>
@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>3.3.0.967583</Version>
+      <Version>3.4.0.1029999</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
